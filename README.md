@@ -8,6 +8,10 @@ This Go program converts a **relative path** into an **absolute path** based on 
 - Handles various edge cases, including multiple `..`, `.` and redundant slashes.
 - **Pre-built executable (**``**) is included**, so you don’t need to install Go to run it.
 
+## Installation
+1. Clone this repository or create a new `.go` file and copy the source code.
+2. Navigate to the project directory in the terminal.
+
 ## Usage
 
 You can run this program using one of the following methods:
