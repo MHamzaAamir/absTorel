@@ -1,6 +1,6 @@
 # Relative Path to Absolute Path Converter
 
-This Go program converts a **relative path** into an **absolute path** based on a given **current directory**. It resolves paths accurately, handling `.` (current directory), `..` (parent directory), and nested paths correctly.
+This Go program converts a **relative path** into an **absolute path** based on a given **current directory**. It resolves paths accurately, handling `./` (current directory), `../` (parent directory), and nested paths correctly.
 
 ## Features
 
