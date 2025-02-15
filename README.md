@@ -12,25 +12,25 @@ This Go program converts a **relative path** into an **absolute path** based on 
 
 You can run this program using one of the following methods:
 
-### 1. Running the Executable (`relative.exe`)
+### 1. Running the Executable (`absToRel.exe`)
 
 #### If You Don't Have Go Installed
 
-You can directly run the pre-built `relative.exe` file:
+You can directly run the pre-built `absToRel.exe` file:
 
 - **For Command Prompt (CMD):**
   ```sh
-  relative.exe "<current_directory>" "<relative_path>"
+  absToRel.exe "<current_directory>" "<relative_path>"
   ```
 - **For PowerShell:**
   ```powershell
-  .\relative.exe "<current_directory>" "<relative_path>"
+  .\absToRel.exe "<current_directory>" "<relative_path>"
   ```
 
 
-### 2. Running the Executable (`relative.exe`) Using Go
+### 2. Running the main.go file Using Go
 
-If you have Go installed, you can still run the `.exe` file using the `go run` command:
+If you have Go installed, you can alternatively run it using the `go run` command:
 
 ```sh
 go run main.go "<current_directory>" "<relative_path>"
